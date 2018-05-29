@@ -7,16 +7,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = /** @class */ (function () {
-    function AppComponent() {
+var platform_browser_1 = require("@angular/platform-browser");
+var app_component01insert_1 = require("./app.component01insert");
+var AppModule = /** @class */ (function () {
+    function AppModule() {
     }
-    AppComponent = __decorate([
-        core_1.Component({
-            selector: 'my-app',
-            template: '<h1>我的第一个 Angular 应用，<br> c02 <br> dodo 简单修改的 Component ！！</h1>'
+    AppModule = __decorate([
+        core_1.NgModule({
+            imports: [platform_browser_1.BrowserModule],
+            declarations: [app_component01insert_1.AppComponent01insert],
+            bootstrap: [app_component01insert_1.AppComponent01insert]
         })
-    ], AppComponent);
-    return AppComponent;
+    ], AppModule);
+    return AppModule;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.AppModule = AppModule;
+//# sourceMappingURL=app.module.js.map

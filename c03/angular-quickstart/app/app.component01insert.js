@@ -7,16 +7,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = /** @class */ (function () {
-    function AppComponent() {
+var AppComponent01insert = /** @class */ (function () {
+    function AppComponent01insert() {
+        this.title = '站点列表';
+        this.mySite = '菜鸟教程 dodo01';
     }
-    AppComponent = __decorate([
+    AppComponent01insert = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: '<h1>我的第一个 Angular 应用，<br> c02 <br> dodo 简单修改的 Component ！！</h1>'
+            template: '<h1>我的第一个 Angular 应用，<br> c03 <br> dodo 简单修改的 Component ！！</h1>' +
+                '<h1>{{title}}</h1>' +
+                '<h2>我喜欢的网站: {{mySite}}</h2>'
         })
-    ], AppComponent);
-    return AppComponent;
+    ], AppComponent01insert);
+    return AppComponent01insert;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.AppComponent01insert = AppComponent01insert;
+//# sourceMappingURL=app.component01insert.js.map

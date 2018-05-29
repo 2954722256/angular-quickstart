@@ -13,10 +13,10 @@ var AppComponent = /** @class */ (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: '<h1>我的第一个 Angular 应用，<br> c02 <br> dodo 简单修改的 Component ！！</h1>'
+            template: '<h1>我的第一个 Angular 应用，<br> c03 <br> dodo 简单修改的 Component ！！</h1>'
         })
     ], AppComponent);
     return AppComponent;
 }());
 exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+//# sourceMappingURL=app.component021forobj.js.map
