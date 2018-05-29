@@ -10,6 +10,6 @@ export class ClickMeComponent {
   clickMessage = '';
 
   onClickMe() {
-    this.clickMessage = '菜鸟教程!';
+    this.clickMessage = '菜鸟教程，dodo click!';
   }
 }

@@ -12,7 +12,7 @@ var ClickMeComponent = /** @class */ (function () {
         this.clickMessage = '';
     }
     ClickMeComponent.prototype.onClickMe = function () {
-        this.clickMessage = '菜鸟教程!';
+        this.clickMessage = '菜鸟教程，dodo click!';
     };
     ClickMeComponent = __decorate([
         core_1.Component({
