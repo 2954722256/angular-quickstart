@@ -8,24 +8,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var site_1 = require("./site");
-var AppComponent021forobj = /** @class */ (function () {
-    function AppComponent021forobj() {
+var AppComponent03if = /** @class */ (function () {
+    function AppComponent03if() {
         this.title = '站点列表';
         this.sites = [
             new site_1.Site(1, '菜鸟教程'),
             new site_1.Site(2, 'Google'),
             new site_1.Site(3, 'Taobao'),
-            new site_1.Site(4, 'Facebookkk')
+            new site_1.Site(4, 'Facebookkk2')
         ];
         this.mySite = this.sites[0];
     }
-    AppComponent021forobj = __decorate([
+    AppComponent03if = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n    <h1>{{title}}</h1>\n    <h2>\u6211\u559C\u6B22\u7684\u7F51\u7AD9: {{mySite.name}}</h2>\n    <p>\u7F51\u7AD9\u5217\u8868:</p>\n    <ul>\n      <li *ngFor=\"let site of sites\">\n        {{ site.name }}\n      </li>\n    </ul>\n    "
+            template: "\n      <h1>{{title}}</h1>\n      <h2>\u6211\u559C\u6B22\u7684\u7F51\u7AD9: {{mySite.name}}</h2>\n      <p>\u7F51\u7AD9\u5217\u8868:</p>\n      <ul>\n          <li *ngFor=\"let site of sites\">\n              {{ site.name }}\n          </li>\n      </ul>\n      <p *ngIf=\"sites.length > 3\">\u4F60\u6709\u5F88\u591A\u4E2A\u559C\u6B22\u7684\u7F51\u7AD9!</p>\n  "
         })
-    ], AppComponent021forobj);
-    return AppComponent021forobj;
+    ], AppComponent03if);
+    return AppComponent03if;
 }());
-exports.AppComponent021forobj = AppComponent021forobj;
-//# sourceMappingURL=app.component021forobj.js.map
+exports.AppComponent03if = AppComponent03if;
+//# sourceMappingURL=app.component03if.js.map
